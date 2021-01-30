@@ -1,3 +1,21 @@
 .App {
   text-align: center;
 }
+
+.proj-container{
+  /* display: flex; */
+  justify-content: space-between;
+  align-content: center;
+  text-align: center;
+}
+.card-image{
+  width: 400px;
+  border: 1px solid black;
+}
+.card-title{
+  font-size: 24px;
+}
+.card-action {
+  display: flex;
+  justify-content: space-around;
+}
