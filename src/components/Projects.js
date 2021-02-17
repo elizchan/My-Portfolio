@@ -11,7 +11,7 @@ const Projects = () => {
                 <div class="row">
                     <div class="col s12 m6">
                         <div class="card-image">
-                            <img src=""></img>
+                            <img src="https://i.ibb.co/PgPvvjg/Screen-Shot-2021-02-17-at-3-55-31-PM.png" width="399"></img>
                             <div class="card-content black-text">
                                 <span class="card-title"><strong>K-Culture-Trivia</strong></span>
                                 <p>a Korean culture trivia game that is played between 2 people. It was built using Vanilla JS, CSS and HTML</p>
@@ -26,7 +26,7 @@ const Projects = () => {
                 <div class="row">
                     <div class="col s12 m6">
                         <div class="card-image">
-                            <img src=""></img>
+                            <img src="https://i.ibb.co/TTnD5Yr/Screen-Shot-2021-02-17-at-3-50-24-PM.png" width="399"></img>
                             <div class="card-content black-text">
                                 <span class="card-title"><strong>SuperSmash Directory</strong></span>
                                 <p>a website built using Node.js, SQL, CSS takes a SuperSmash Directory and allows users to make an account, add favorite SuperSmash characters to their profile and leave comments on a message board.</p>
@@ -59,7 +59,7 @@ const Projects = () => {
                             <img src="" width="399"></img>
                             <div class="card-content black-text">
                                 <span class="card-title"><strong>Simple Bento</strong></span>
-                                <p>a website/app built using Angular.js, Mongodb, Mongoose, Node.js and CSS </p>
+                                <p>a restaurant website built using Angular.js, Mongodb, Mongoose, Node.js and CSS that allows the owner to update menu and recipes and customers to browse through the available menu.</p>
                             </div>
                             <div class="card-action">
                                 <a href="">Link to Site</a>
@@ -73,3 +73,4 @@ const Projects = () => {
     )
 }
 export default Projects
+
