@@ -54,7 +54,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col s12 m6">
+                    {/* <div class="col s12 m6">
                         <div class="card-image">
                             <img src="" width="399"></img>
                             <div class="card-content black-text">
@@ -66,7 +66,7 @@ const Projects = () => {
                                 <a href="">Link to Code</a>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
