@@ -5,6 +5,7 @@ import About from "./components/About"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
 import Layout from "./components/common/Layout"
+import Skills from "./components/Skills"
 
 import {
   Route,
@@ -20,7 +21,8 @@ const App = () => {
       <Layout>
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/blog" component={Blog} />
+        {/* <Route path="/blog" component={Blog} /> */}
+        <Route path="/skills" component={Skills} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
       </Layout>

@@ -1,16 +1,18 @@
 .App {
   text-align: center;
 }
-
 .proj-container{
   /* display: flex; */
-  justify-content: space-between;
   align-content: center;
   text-align: center;
+}
+.projName {
+  padding: 15px;
 }
 .card-image{
   width: 400px;
   border: 1px solid black;
+  height: 420px;
 }
 .card-title{
   font-size: 24px;
@@ -19,7 +21,37 @@
   display: flex;
   justify-content: space-around;
 }
-
 .container {
   text-align: center;
 }
+.footercontainer {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100%;
+}
+.links {
+  justify-content: flex-end;
+  flex-basis: 33.3%;
+}
+.about{
+  display: flex;
+  height: 100%;
+  text-align: center;
+}
+.aboutCard {
+  width: 500px;
+  padding: 15px;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-img-card {
+  width: 150px;
+  height: 200px;
+  margin: 0 auto 10px;
+  display: block;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+

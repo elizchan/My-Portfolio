@@ -10,6 +10,7 @@ const Projects = () => {
             <div class="proj-container">
                 <div class="row">
                     <div class="col s12 m6">
+                        <div class="projName">
                         <div class="card-image">
                             <img src="https://i.ibb.co/PgPvvjg/Screen-Shot-2021-02-17-at-3-55-31-PM.png" width="399"></img>
                             <div class="card-content black-text">
@@ -21,10 +22,11 @@ const Projects = () => {
                                 <a href="https://github.com/elizchan/K-Culture-Trivia">Link to Code</a>
                             </div>
                         </div>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
+               
                     <div class="col s12 m6">
+                        <div class="projName">
                         <div class="card-image">
                             <img src="https://i.ibb.co/TTnD5Yr/Screen-Shot-2021-02-17-at-3-50-24-PM.png" width="399"></img>
                             <div class="card-content black-text">
@@ -36,10 +38,11 @@ const Projects = () => {
                                 <a href="https://github.com/elizchan/SuperSmash-Directory">Link to Code</a>
                             </div>
                         </div>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
+                
                     <div class="col s12 m6">
+                        <div class="projName">
                         <div class="card-image">
                             <img src="https://i.imgur.com/qgxEYGw.png" width="399"></img>
                             <div class="card-content black-text">
@@ -51,9 +54,10 @@ const Projects = () => {
                                 <a href="https://github.com/elizchan/Roast-Front">Link to Code</a>
                             </div>
                         </div>
+                        </div>
                     </div>
-                </div>
-                <div class="row">
+                
+                {/* <div class="row"> */}
                     {/* <div class="col s12 m6">
                         <div class="card-image">
                             <img src="" width="399"></img>
