@@ -4,8 +4,8 @@ import "../css/components/Home.css";
 const Home = () => {
   return (
     <div>
-      <h2>Elizabeth's Website</h2>
-      <p>Welcome to my website</p>
+      <h2>Elizabeth Chandra</h2>
+      <h4>Software Engineer</h4>
     </div>
   )
 };

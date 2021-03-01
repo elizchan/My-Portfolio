@@ -1,21 +1,29 @@
 .App {
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+.p {
+  font-size: 20px;
 }
 .proj-container{
-  /* display: flex; */
-  align-content: center;
-  text-align: center;
+  /* align-content: center; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* text-align: center; */
 }
 .projName {
   padding: 15px;
+  margin: 0 100px 25px 0;
+  flex: 1 1 0;
 }
 .card-image{
   width: 400px;
   border: 1px solid black;
-  height: 420px;
+  height: 450px;
 }
 .card-title{
-  font-size: 24px;
+  font-size: 30px;
 }
 .card-action {
   display: flex;

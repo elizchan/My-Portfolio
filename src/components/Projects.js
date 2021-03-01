@@ -9,10 +9,11 @@ const Projects = () => {
             </div>
             <div class="proj-container">
                 <div class="row">
-                    <div class="col s12 m6">
+                    {/* <div class="col s12 m6"> */}
+                    <div class="col s4">
                         <div class="projName">
                         <div class="card-image">
-                            <img src="https://i.ibb.co/PgPvvjg/Screen-Shot-2021-02-17-at-3-55-31-PM.png" width="399"></img>
+                            <img src="https://i.ibb.co/PgPvvjg/Screen-Shot-2021-02-17-at-3-55-31-PM.png" width="398"></img>
                             <div class="card-content black-text">
                                 <span class="card-title"><strong>K-Culture-Trivia</strong></span>
                                 <p>a Korean culture trivia game that is played between 2 people. It was built using Vanilla JS, CSS and HTML</p>
@@ -25,10 +26,10 @@ const Projects = () => {
                         </div>
                     </div>
                
-                    <div class="col s12 m6">
+                    <div class="col s4">
                         <div class="projName">
                         <div class="card-image">
-                            <img src="https://i.ibb.co/TTnD5Yr/Screen-Shot-2021-02-17-at-3-50-24-PM.png" width="399"></img>
+                            <img src="https://i.ibb.co/TTnD5Yr/Screen-Shot-2021-02-17-at-3-50-24-PM.png" width="398"></img>
                             <div class="card-content black-text">
                                 <span class="card-title"><strong>SuperSmash Directory</strong></span>
                                 <p>a website built using Node.js, SQL, CSS takes a SuperSmash Directory and allows users to make an account, add favorite SuperSmash characters to their profile and leave comments on a message board.</p>
@@ -41,10 +42,10 @@ const Projects = () => {
                         </div>
                     </div>
                 
-                    <div class="col s12 m6">
+                    <div class="col s4">
                         <div class="projName">
                         <div class="card-image">
-                            <img src="https://i.imgur.com/qgxEYGw.png" width="399"></img>
+                            <img src="https://i.imgur.com/qgxEYGw.png" width="398"></img>
                             <div class="card-content black-text">
                                 <span class="card-title"><strong>Roast</strong></span>
                                 <p>a website/app built by a team using React.js, Mongodb, Mongoose, Node.js and CSS that takes the Yelp API to generate a list of nearby cafes to the user and allow the users to leave their own comments under the cafe page.</p>
