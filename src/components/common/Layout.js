@@ -1,4 +1,5 @@
 import React from 'react'
+import {FaGithub, FaLinkedin} from 'react-icons/fa'
 
 const Layout = (props) => {
     return(
@@ -7,8 +8,8 @@ const Layout = (props) => {
                 <div className="nav-wrapper">
                 <ul id="nav-mobile" className="right">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/skills">Skills</a></li>
+                    {/* <li><a href="/about">About</a></li> */}
+                    {/* <li><a href="/skills">Skills</a></li> */}
                     <li><a href="/projects">Projects</a></li>
                     <li><a href="/contact">Contact Me</a></li>
                 </ul>
@@ -24,8 +25,8 @@ const Layout = (props) => {
                         <div className="col l4 offset-l2 s12">
                             <h5 className="white-text">Links</h5>
                             <ul>
-                                <li><a className="grey-text text-lighten-3" href="https://github.com/elizchan" target="_blank">Github</a></li>
-                                <li><a className="grey-text text-lighten-3" href="https://www.linkedin.com/in/elizabeth-chandra-95106743/" target="_blank">LinkedIn</a></li>
+                                <li className="icons"><a className="grey-text text-lighten-3" href="https://github.com/elizchan" target="_blank"><FaGithub />Github</a></li>
+                                <li className="icons"><a className="grey-text text-lighten-3" href="https://www.linkedin.com/in/elizabeth-chandra-95106743/" target="_blank"><FaLinkedin />LinkedIn</a></li>
                                 {/* <li><a className="grey-text text-lighten-3" href="#!">Link 3</a></li>
                                 <li><a className="grey-text text-lighten-3" href="#!">Link 4</a></li> */}
                             </ul>

@@ -6,13 +6,9 @@ import {BrowserRouter as Router, Switch} from 'react-router-dom'
 // CSS imports
 import "./css/index.css";
 ReactDOM.render(
-  <React.StrictMode>
-    <Router>
-      <Switch>
-        <App />
-      </Switch>
-    </Router>
+  <Router>
+    <App />
+  </Router>,
     
-  </React.StrictMode>,
   document.getElementById("root")
 );
