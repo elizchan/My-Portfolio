@@ -8,11 +8,11 @@ const Layout = (props) => {
             <nav class="deep-purple lighten-3">
                 <div className="nav-wrapper">
                 <ul id="nav-mobile" className="right">
-                    <li><Link to="/">Home</a></li>
+                    <li><Link to="/">Home</Link></li>
                     {/* <li><a href="/about">About</a></li> */}
                     {/* <li><a href="/skills">Skills</a></li> */}
-                    <li><Link to="/projects">Projects</a></li>
-                    <li><Link to="/contact">Contact Me</a></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/contact">Contact Me</Link></li>
                 </ul>
                 </div>
             </nav>
