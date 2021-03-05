@@ -5,7 +5,7 @@ import { SiPostgresql, SiMongodb, SiJavascript } from 'react-icons/si'
 const Skills = () => {
     return(
         <div>
-            <h4>Skills I learned:</h4>
+            <h4>Languages + Proficiencies:</h4>
             <ul>
                 <li className="icons"><FaHtml5 />HTML5</li>
                 <li className="icons"><FaCss3Alt />CSS</li>
