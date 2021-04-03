@@ -58,8 +58,8 @@ const Projects = () => {
                         </div>
                     </div>
                 
-                {/* <div class="row"> */}
-                    {/* <div class="col s12 m6">
+                    <div class="col s4">
+                        <div class="projName">
                         <div class="card-image">
                             <img src="" width="399"></img>
                             <div class="card-content black-text">
@@ -67,11 +67,13 @@ const Projects = () => {
                                 <p>a restaurant website built using Angular.js, Mongodb, Mongoose, Node.js and CSS that allows the owner to update menu and recipes and customers to browse through the available menu.</p>
                             </div>
                             <div class="card-action">
-                                <a href="">Link to Site</a>
-                                <a href="">Link to Code</a>
+                                {/* <a href="">Link to Site</a>
+                                <a href="">Link to Code</a> */}
+                                <p>It is still a work in progress</p>
                             </div>
                         </div>
-                    </div> */}
+                        </div>
+                    </div> 
                 </div>
             </div>
         </div>
