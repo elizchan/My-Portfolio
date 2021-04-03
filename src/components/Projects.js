@@ -67,8 +67,8 @@ const Projects = () => {
                                 <p>a restaurant website built using Angular.js, Mongodb, Mongoose, Node.js and CSS that allows the owner to update menu and recipes and customers to browse through the available menu.</p>
                             </div>
                             <div class="card-action">
-                                {/* <a href="">Link to Site</a>
-                                <a href="">Link to Code</a> */}
+                                {/* <a href="">Link to Site</a> */}
+                                <a href="https://github.com/elizchan/Simple-Bento-backend">Link to sample Code</a> 
                                 <p>It is still a work in progress</p>
                             </div>
                         </div>
